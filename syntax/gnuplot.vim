@@ -63,6 +63,7 @@ hi def link plotString String
 
 " --- Number ---
 syn match   plotNumber "\<-\?\d\+\>"
+syn match   plotNumber "\<-\?0[xX]\?\x\+\>"
 hi def link plotNumber Number
 
 " --- Float ---
